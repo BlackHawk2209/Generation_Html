@@ -1,0 +1,18 @@
+.caja {
+    width: 400px;
+    height: 400px;
+}
+
+.uno{
+    background-color:#fafa31;
+    margin-bottom: 10px;
+    border: 2px solid #000000; /*te da grosor, solido y color del borde*/
+    /*border-radius: 20px;*/
+    border-top-left-radius: 20px; /*es para hacer redondo solo un lado*/
+
+}
+
+.dos{
+    background-color:rgb(12, 182, 6) ;
+    border-radius: 50%;
+}

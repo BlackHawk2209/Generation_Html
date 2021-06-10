@@ -1,0 +1,48 @@
+header > h1 {
+    color: rgb(255, 0,0);
+    text-align: center;
+    letter-spacing: 10px;   /*Espacio entre letras*/
+}
+
+body{
+    background-color: lightgray;
+}
+main > article > section {
+    width: 90%;
+    margin: 0 auto;  /*Si se le pone auto el primer valor hace referencia arriba y a abajo*/
+}
+main > article > section > h3 {
+    background-color: gray;
+    color: white;
+    font-size: 28px;
+    padding: 5px 5px; /*Pasando dos valores arriba y abajo*/
+}
+
+main > article > section > div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+main > article > section > div > img {
+    float:left;   /*tE ROMPE LOS ELEMENTOS Y HACe relajo*/
+    margin-right: 20px;
+
+}
+main > article > section > div > p > em{
+    color: red;
+}
+
+main > article > section > div > p > span {
+    background-color: white;
+}
+main > article > section > div > p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.clear-fix{
+    clear: both;   /*Se uso para contrarrestar los efectos del float:left;*/
+    float: none;    /*Elimina el flotado*/
+}

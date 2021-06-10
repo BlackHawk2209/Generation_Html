@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form method="POST">
+        <!-- Por defaul se usa el metodo GET que adjunta la informacion en la url
+        y con el metodo post no se envia por el url -->
+        <h3>Registrate</h3>
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" />
+        </p>
+        <p>
+            <label for="email">Correo electronico</label>
+            <input type="text" name="email" />
+            <!-- IMPORTANTE agregar el name ya que se recuperan con el name los datos -->
+        </p>
+        <p>
+            <label for="password">Contraseña: </label>
+            <!-- Si se le pone la porpiedad required es porque se debe enviar obligatorio -->
+            <input type="password" name="password" />
+        </p>
+        <p>
+            <label for="date">Cumpleaños</label>
+            <input type="date">
+        </p>
+        <p>
+            <select name="meses" id="">
+                <option value="">Enero</option>
+                <option value="">Febrero</option>
+                <option value="">Marzo</option>
+                <option value="">Abril</option>
+            </select>
+        </p>
+        <p>
+            <label for="color">Amarillo</label>
+            <input type="radio" name="color" value="amarillo">
+            <label for="color">Rojo</label>
+            <input type="radio" name="color" value="rojo">
+            <label for="color">azul</label>
+            <input type="radio" name="color" value="azul">
+            <label for="color">Verde</label>
+            <input type="radio" name="color" value="verde">
+        </p>
+
+
+        <p>
+            <textarea name="muchotexto" id="" cols="30" rows="10"></textarea>
+        </p>
+
+
+        <input type="submit" value="Registrar">
+
+    </form>
+</body>
+
+</html>
